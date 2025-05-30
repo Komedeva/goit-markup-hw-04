@@ -80,6 +80,14 @@ body {
   display: block;
 }
 
+/* .links-item.studio::after {
+  color: rgba(64, 75, 191, 1);
+  width: 48px;
+  height: 4px;
+  top: 44px;
+  border-radius: 2px;
+} */
+
 .contacts {
   align-items: center;
   margin-left: auto;
@@ -126,6 +134,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
@@ -206,6 +215,11 @@ body {
 /**MAIN TITLE**/
 .main-table {
   background: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -405,7 +419,7 @@ team-title
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; !important; 
+  color: #4d5ae5 !important;
   margin-bottom: 16px;
 }
 
@@ -435,3 +449,71 @@ team-title
   text-align: left;
   max-width: 264px;
 }
+
+.social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+/**ICONS**/
+.icons {
+  stroke: #fff;
+  fill: #fff;
+}
+
+.icons-bg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(77, 90, 229, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-bg:hover {
+  background-color: rgba(49, 208, 170, 1);
+}
+
+.social-icons-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 12px;
+}
+
+.social-icons-footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 16px;
+}
+/* 
+.social-media-footer {
+  gap: 16px;
+}
+
+.icons-footer {
+  gap: 16px;
+} */
+
+/* .box {
+  width: 400px;
+  height: 400px;
+  background-color: tomato;
+  margin: 80px auto 0;
+  box-shadow: 10px 10px 10px 10px teal, 20px 20px 10px 10px rgb(68, 105, 217),
+    30px 30px 10px 10px pink;
+}
+
+.box:active {
+  box-shadow: unset;
+  transform: translate(10px, 10px);
+} */
