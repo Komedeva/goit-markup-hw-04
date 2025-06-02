@@ -296,6 +296,16 @@ body {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.icon-benefits {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 24px 100px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 /*
 .section-subtitle {
 }
@@ -329,6 +339,9 @@ team-title
   margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 .team-member:last-child {
@@ -383,6 +396,12 @@ team-title
 .work-item {
   margin-right: 0px;
   width: calc((100% - 48px) / 3);
+}
+
+.work-item:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 
 /* .work-item:nth-child(3n) {
@@ -502,18 +521,4 @@ team-title
 
 .icons-footer {
   gap: 16px;
-} */
-
-/* .box {
-  width: 400px;
-  height: 400px;
-  background-color: tomato;
-  margin: 80px auto 0;
-  box-shadow: 10px 10px 10px 10px teal, 20px 20px 10px 10px rgb(68, 105, 217),
-    30px 30px 10px 10px pink;
-}
-
-.box:active {
-  box-shadow: unset;
-  transform: translate(10px, 10px);
 } */
